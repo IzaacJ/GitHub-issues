@@ -1,5 +1,5 @@
 # BlazorBootstrap Modal
-[< Back to main](https://izaacj/github-issues)
+[< Back to main](https://github.com/izaacj/github-issues)
 
 Having a `Modal` outside the `article` element in `MainLayout.razor` seems to render the modal window behind the backdrop.
 
