@@ -1,0 +1,17 @@
+<Modal @ref="ModalExample" Title="Modal Example Behind Backdrop">
+    <HeaderTemplate>
+        Modal Header
+    </HeaderTemplate>
+    <BodyTemplate>
+        Modal Body
+    </BodyTemplate>
+</Modal>
+<Button @onclick="OnButtonClick">Open Modal</Button>
+
+@code {
+    private Modal ModalExample { get; set; }
+
+    private async Task OnButtonClick() {
+        await ModalExample.ShowAsync();
+    }
+}
